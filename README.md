@@ -13,7 +13,7 @@ Posts has and belongs to many Tags
 
 In ./tmp.data.db has already example data (few posts,tags and categories)
 
-![DataModel|690x378](upload://nW2JJdpY61eKHWhudxlkolEaYrH.png) 
+![DataModel|690x378](https://strapi-discourse-prod.s3.dualstack.us-west-2.amazonaws.com/uploads/original/1X/a7c1b3290d9a2ef7d6c0aa0b0bbc3a6b2bfe7035.png) 
 
 # What I want to achieve
 
