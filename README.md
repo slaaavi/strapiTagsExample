@@ -8,7 +8,7 @@ The Data Model is:
 
 3 Tables - Posts, Categories and Tags.
 
-Posts has and belongs to many Categories
+Posts has and belongs to many Categories | 
 Posts has and belongs to many Tags
 
 In ./tmp.data.db has already example data (few posts,tags and categories)
