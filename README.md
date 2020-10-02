@@ -1,5 +1,5 @@
-Need Help: How to add (if not exists) related records in POST Method.
-
+# Need Help: How to add (if not exists) related records in POST Method
+ 
 # Strapi application
 
 Strapi v3.1.6 created with --quickstart (using SQLite)
@@ -13,11 +13,13 @@ Posts has and belongs to many Tags
 
 In ./tmp.data.db has already example data (few posts,tags and categories)
 
+![DataModel|690x378](upload://nW2JJdpY61eKHWhudxlkolEaYrH.png) 
+
 # What I want to achieve
 
 Adding (if not exists) related records in POST Method.
 
-When I add a new post with categories and tags. If any category or tags does not already exists in db - to be added.
+When I add a new post with categories and tags, if some of the category or tag does not already exists in db - to be added.
 
 Exact Example:
 
@@ -118,10 +120,10 @@ What I want to be the response:
         ]
 }
 ```
-"Health" category alraedy exists, that's why the ID is 3. "NewCat1" and "NewCat1" doesn't not exists, so they were added in db and got new IDs 6 and 7.
+"Health" category already exists, that's why the ID is 3. "NewCat1" and "NewCat1" doesn't not exists, so they were added in db and got new IDs 6 and 7.
 Same as the tags.
 
-If I understand right after making the post request, Strapi in the backend first needs to find the IDs of each Category and Post. If they don't exists - to add them and get back all the IDs of the added categories and posts and then add do the post record like this:
+If I understand right after making the post request, Strapi in the backend first needs to find the IDs of each Category and Post. If they don't exists - to add them and get back all the IDs of the added categories and tags and then add do the post record like this:
 
 ```
 {
@@ -132,6 +134,6 @@ If I understand right after making the post request, Strapi in the backend first
 }
 ```
 
-I've tried with weeks/months to find information (youtube,stackoverflow,github,udemy...), but for my suprise I was not able to find anything showing how to do exactly this. Doesn't matter if it's about Strapi,Feathers,Prisma... If anyone can show me the code how to do this will be huge help for me and other beginners like me.
+I've tried with weeks to find information (youtube, stackoverflow, github, udemy...), but for my surprise I was not able to find anything showing how to do exactly this. Doesn't matter if it's about Strapi,Feathers,Prisma... If anyone can show me the code how to do this will be huge help for me and other beginners like me.
 
 Thank you.
